@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Spread</title>
+    <script>
+        const ar1 = [10, 20, 30, 40];
+        const ar2 = [11, 22, 33, 44];
+            //99 and 100  it wil aded to the array 
+        const ar = [...ar1, ...ar2, 99,100];
+
+        console.log (ar);
+
+        //complete 8/3/2023
+        const myArray = ['apple','banana','orange'];
+        //map: to map the array(myArray),make a new array based on old array 
+        //.length : to show the length of the array contant
+        const myList = myArray.map((list)=>list.length);
+        console.log(myList);
+
+
+        // *****   https://www.w3schools.com/react/react_es6_destructuring.asp   
+        const x = [1,2,3,4,5];
+        //.map create a new array
+        const y = x.map((element) => element*element);
+        //.write to post/write/show 
+        document.write(x);
+        document.write("<br/>");
+        document.write (y);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
